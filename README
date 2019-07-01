@@ -1,0 +1,3 @@
+just run ./getsn.py to get the serial number and audio decode information from each RX8200 VAST
+the generated .csv file is in serialNumber/SAT_RX8200_VAST_SN.csv
+Jenkins

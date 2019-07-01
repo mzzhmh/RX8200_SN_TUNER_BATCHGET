@@ -1,0 +1,5 @@
+grep RX8200 ExportData.csv | grep VAST | cut -d ';' -f 3,18 > RX8200_VAST_CUTDOWN_LIST.csv
+curl 'http://10.49.25.171/tcf?cgi=show&$path=/Customization'
+curl 'http://10.49.33.46/tcf?cgi=show&$path=/Decode'
+
+
