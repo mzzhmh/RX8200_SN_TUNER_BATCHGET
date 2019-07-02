@@ -1,14 +1,14 @@
 1. This project firstly do the data cleansing on the 2x parallels dumped raw data file and 
-extract the site and IP information of all the Satellite Receivers from the dumped raw data file.
+extract the site and IP information of all the Ericsson Satellite Receivers from the dumped raw data file.
 
 
-2. The getsn.py extracts the IP information from the raw file and uses html get to obtain the configuration page of each Sat Recv.
-It then parses the html file and extracts the SN and Audio tuner information to a .csv file.
+2. The getsn.py extracts the IP information from the raw file and uses http get to obtain the configuration html page of each Sat Recv.
+It then parses the html file and extracts the SN and Audio tuner information then saves the information to a .csv file.
 
 3. The output will be saved in a .csv file.
 
 4. Jenkinsfile is used for single-click deployment and it is used for running the task. 
-It can be used by un-linux background staff to do the batch-get task.
+It can be used by non-linux background staff to do the batch-get task.
 
 
 This repo is used for code maintainence and the customer raw data is not uploaded in here.
